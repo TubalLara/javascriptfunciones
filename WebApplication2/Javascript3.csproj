@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\estilos.css" />
     <Content Include="index.html" />
     <Content Include="scripts\nodos.js" />
     <Content Include="scripts\objetos1.js" />

@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <script src="scripts/objetos1.js"></script>
+    <script src="scripts/nodos.js"></script>
+    <link href="css/estilos.css" rel="stylesheet" />
 </head>
 <body>
     <div id="padre">
@@ -14,5 +15,9 @@
             Soy el hijito<span id="nieto1">De papa</span>
         </div>
     </div>
+    <a href="#" onclick="addLista()">Añade algo</a>
+    <a href="#" onclick="borrarNodo('nieto1')">Borra algo</a>
+    <a href="#" onclick="cambiarColor('nieto1')">Color</a>
+    <a href="#" onclick="todos()">Todos</a>
 </body>
 </html>
